@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="io.sloeber.core.toolChain.release.303242412">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="io.sloeber.core.toolChain.release.303242412" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" description="" id="io.sloeber.core.toolChain.release.303242412" name="Release" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="io.sloeber.core.toolChain.release.303242412.1124165367" name="/" resourcePath="">
+						<toolChain id="io.sloeber.core.toolChain.release.1828147179" name="Arduino Toolchain (Sloeber edition)" superClass="io.sloeber.core.toolChain.release">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="io.sloeber.targetplatform.663155647" name="Arduino Target" osList="all" superClass="io.sloeber.targetplatform"/>
+							<builder buildPath="${workspace_loc:/IMUServer}/Release" id="io.sloeber.sketch.builder.999874137" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Arduino sketch builder" superClass="io.sloeber.sketch.builder"/>
+							<tool id="io.sloeber.tool.sketch.compiler.cpp.1750162541" name="Arduino C++ Compiler" superClass="io.sloeber.tool.sketch.compiler.cpp">
+								<option id="io.sloeber.compiler.cpp.sketch.option.incpath.1550258231" name="Include Paths (-I)" superClass="io.sloeber.compiler.cpp.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/EspWii}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/EspWii/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/Adafruit_BNO055}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/Adafruit_BNO055/utility}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/Preferences}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/Preferences/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/SimplePacketComs}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/SimplePacketComs/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/WiFi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/WiFi/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/WiiChuck}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/WiiChuck/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/Wire}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/Wire/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/Esp32SimplePacketComs}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/Esp32SimplePacketComs/src}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.cpp.sketch.input.1391491066" name="CPP source files" superClass="io.sloeber.compiler.cpp.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.compiler.c.996656776" name="Arduino C Compiler" superClass="io.sloeber.tool.compiler.c">
+								<option id="io.sloeber.compiler.c.sketch.option.incpath.749542564" name="Include Paths (-I)" superClass="io.sloeber.compiler.c.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/EspWii}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/EspWii/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/Adafruit_BNO055}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/Adafruit_BNO055/utility}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/Preferences}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/Preferences/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/SimplePacketComs}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/SimplePacketComs/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/WiFi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/WiFi/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/WiiChuck}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/WiiChuck/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/Wire}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/Wire/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/Esp32SimplePacketComs}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/Esp32SimplePacketComs/src}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.c.sketch.input.991253710" name="C Source Files" superClass="io.sloeber.compiler.c.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.sketch.compiler.s.1807084093" name="Arduino Assembler" superClass="io.sloeber.tool.sketch.compiler.s">
+								<option id="io.sloeber.compiler.asm.sketch.option.incpath.1807639467" name="Include Paths (-I)" superClass="io.sloeber.compiler.asm.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/EspWii}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/EspWii/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/Adafruit_BNO055}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/Adafruit_BNO055/utility}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/Preferences}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/Preferences/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/SimplePacketComs}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/SimplePacketComs/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/WiFi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/WiFi/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/WiiChuck}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/WiiChuck/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/Wire}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/Wire/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/Esp32SimplePacketComs}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/IMUServer/libraries/Esp32SimplePacketComs/src}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.S.sketch.input.1477486273" name="Assembly source files" superClass="io.sloeber.compiler.S.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.ar.1851700130" name="Arduino archiver" superClass="io.sloeber.tool.ar"/>
+							<tool id="io.sloeber.tool.combine.97271926" name="Arduino combiner" superClass="io.sloeber.tool.combine"/>
+							<tool id="io.sloeber.tool.objcopy.eep.1443466478" name="Arduino tool Create eeprom" superClass="io.sloeber.tool.objcopy.eep"/>
+							<tool id="io.sloeber.tool.size.188220040" name="Arduino tool Print Size" superClass="io.sloeber.tool.size"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="libraries/Esp32SimplePacketComs/.git|libraries/WiiChuck/.git|libraries/Adafruit_BNO055/OBJLoader|libraries/?*/**/?xamples/**|libraries/?*/**/?xtras/**|libraries/?*/**/test*/**|libraries/?*/**/third-party/**|libraries/**/._*|libraries/?*/utility/*/*" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="IMUServer.null.1717334799" name="IMUServer"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="refreshScope"/>
+</cproject>
